@@ -1,9 +1,36 @@
-# Diagrams
+# Architecture Diagrams
 
-This folder contains visual documentation for the project, such as:
+This folder contains visual documentation for the architecture and automated workflows of the Large-Scale Data Pipeline project.
 
-- pipeline architecture diagrams
-- automation workflow diagrams
-- supporting technical visuals
+The diagrams are intended to provide a high-level technical view of the system without exposing production source code, internal infrastructure, confidential business rules, or operational data.
 
-Diagram creation is currently in progress.
+## Planned Diagrams
+
+### Pipeline Architecture
+
+A high-level view of the complete data flow:
+
+Operational Reports → Acquisition → Data Processing → Validation → PostgreSQL → Analytics & Reporting
+
+### Automation Workflow
+
+A representation of the scheduled daily workflow, including:
+
+- Reporting-period detection
+- Automated report acquisition
+- File validation
+- Incremental ingestion
+- Data validation
+- PostgreSQL update
+- Post-ingestion verification
+- Execution logging
+
+### Recovery Workflow
+
+A simplified view of how the system detects and recovers missing reporting periods after unsuccessful or missed scheduled executions.
+
+## Confidentiality
+
+All diagrams in this repository are simplified architectural representations.
+
+Internal systems, credentials, production infrastructure details, proprietary transformation logic, and confidential business information are intentionally excluded.
