@@ -29,3 +29,20 @@ The project focuses on building a repeatable and reliable data workflow rather t
 - PowerShell
 - Git
 - Windows Task Scheduler
+- 
+## Business Problem
+
+The source data was generated as large operational report files that required repeated manual processing before it could be used reliably for analysis and reporting.
+
+Key challenges included:
+
+- Large volumes of historical and daily data
+- Duplicate records across multiple report files
+- Inconsistent data types and formatting
+- Missing or incomplete values in important fields
+- Repeated business-rule transformations
+- The need to integrate new daily data without rebuilding the entire dataset
+- The need to keep the analytical database synchronized with newly processed data
+- Manual report acquisition and processing created unnecessary operational effort
+
+The goal was to build a reliable pipeline that could process both historical and newly arriving data consistently, validate the results, and publish analysis-ready records to PostgreSQL with minimal manual intervention.
