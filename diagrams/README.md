@@ -38,4 +38,4 @@ Internal systems, credentials, production infrastructure details, proprietary tr
 
 The following diagram provides a simplified view of the end-to-end data flow, from operational report acquisition through processing, validation, analytical storage, and reporting.
 
-![Large-Scale Data Pipeline Architecture](Pipeline Diagram.png)
+![Large-Scale Data Pipeline Architecture](pipeline-architecture.png)
