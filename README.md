@@ -85,3 +85,12 @@ flowchart TD
     G --> H[Validation]
     H --> I[PostgreSQL]
     I --> J[Analytics & Reporting]
+```
+---
+
+## Additional Documentation
+
+For a deeper look at the project design and reliability approach:
+
+- [Technical Design](docs/technical-design.md)
+- [Data Quality & Reliability](docs/data-quality-and-reliability.md)
