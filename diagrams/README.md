@@ -34,3 +34,8 @@ A simplified view of how the system detects and recovers missing reporting perio
 All diagrams in this repository are simplified architectural representations.
 
 Internal systems, credentials, production infrastructure details, proprietary transformation logic, and confidential business information are intentionally excluded.
+## Pipeline Architecture
+
+The following diagram provides a simplified view of the end-to-end data flow, from operational report acquisition through processing, validation, analytical storage, and reporting.
+
+![Large-Scale Data Pipeline Architecture](pipeline-architecture.png)
